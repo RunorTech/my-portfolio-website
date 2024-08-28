@@ -1,0 +1,129 @@
+.get-in-touch-section{
+    display: flex;
+	/* padding: 20px 170px; */
+    flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.get-in-touch{
+    display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	gap: 50px;
+	/* justify-content: center; */
+}
+.get-in-touch-title{
+    display: flex;
+    gap: 50px;
+    align-self: center;
+}
+.get-in-touch-title h2{
+    font-size: 3rem;
+}
+.get-in-touch-body{
+    display: flex;
+   /* justify-content: space-between; */
+   gap: 8vw;
+}
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+}
+.contact-me h4{
+    font-size: 2.5rem;
+    background: linear-gradient(276deg, rgb(255, 255, 255) 1.0%, rgb(15, 15, 255) 167%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-me p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.send-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form{
+    width: 540px;
+}
+.send-form input{
+    width: 520px;
+    height: 15px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+.send-form textarea{
+    padding: 10px;
+    width: 520px;
+    height: 200px;
+    resize: none;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-top: 8px;
+}
+.send-form input:focus, .send-form textarea:focus{
+    border: 8px solid rgb(106, 43, 252);
+}
+
+.send-form button{
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 25px;
+    background: linear-gradient(276deg, rgb(255, 255, 255) 1.0%, rgb(15, 15, 255) 167%);
+}
+
+@media screen and (max-width: 1295px) {
+.get-in-touch-body{
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media screen and (max-width: 600px) {
+    .send-form input, .send-form textarea{
+        width: 100%;
+    }
+    .send-form label{
+        width: 75vw;
+        align-self: center;
+    }
+    .contact-me{
+        width: 75vw;
+    }
+    .getintousloader{
+        display: none;
+    }
+    .send-form button {
+        align-self: center;
+    }
+    .nowrapP{
+        
+        text-wrap: nowrap ;
+    }
+    .get-in-touch-body{
+        padding-right: 30px;
+    }
+    @media screen and (max-width: 568px){
+        .nowrapP{
+            position: relative;
+            margin-left: -26px;
+            font-size: 0px; 
+        }  
+
+    }
+
+
+}

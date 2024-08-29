@@ -113,17 +113,21 @@ form{
         
         text-wrap: nowrap ;
     }
-    .get-in-touch-body{
-        padding-right: 30px;
+    .send-form{
+        width: 100vw;
     }
-    @media screen and (max-width: 568px){
-        .nowrapP{
-            position: relative;
-            margin-left: -26px;
-            font-size: 0px; 
-        }  
-
+    .get-in-touch{
+        overflow-x: hidden;
     }
 
+
+}
+
+@media screen and (max-width: 568px){
+    .nowrapP{
+        position: relative;
+        margin-left: -26px;
+        font-size: 0px; 
+    }  
 
 }

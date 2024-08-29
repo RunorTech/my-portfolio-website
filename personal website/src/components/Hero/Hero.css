@@ -120,7 +120,7 @@ height: 80vh;
 @media screen and (max-width: 1200px) {
     .hero-section{
         height: fit-content;
-        margin-top: 20px;
+        margin-top: 4rem;
        
         
     }
@@ -135,6 +135,7 @@ height: 80vh;
     .hero img{
         width: 250px;
     }
+  
     
 }
 @media screen and (max-width: 568px) {
@@ -146,4 +147,8 @@ height: 80vh;
 	.margin{
         padding-top: 10vh;
       }
+      .btn-hero{
+        flex-direction: column;
+      }
+      
 }

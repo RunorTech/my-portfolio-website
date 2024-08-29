@@ -2,9 +2,14 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(255, 255, 255, 0);
 	box-shadow: #a39ab663 -1px 5px 10px,
 		rgba(140, 134, 153, 0.432) 0 -1px 20px 2px, #d6d6e775 0 -6px 20px;
+background: rgba(255, 255, 255, 0.055);
+border-radius: 16px;
+backdrop-filter: blur(39px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
 }
 .nav-bar {
 	display: flex;
@@ -12,6 +17,7 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	gap: 4vw;
+	
 }
 .nav-items {
 	display: flex;
@@ -45,9 +51,13 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 2vw;
-	background-color: rgba(255, 255, 255, 0);
 	box-shadow: #a39ab663 -1px 5px 10px,
-		rgba(140, 134, 153, 0.432) 0 -1px 20px 2px, #d6d6e775 0 -6px 20px;
+	rgba(140, 134, 153, 0.432) 0 -1px 20px 2px, #d6d6e775 0 -6px 20px;
+background: rgba(255, 255, 255, 0.055);
+border-radius: 16px;
+backdrop-filter: blur(39px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .hamburger-menu {
 	position: relative;

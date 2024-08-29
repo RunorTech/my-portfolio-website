@@ -23,3 +23,8 @@ a{
 }
 
 /* #BB84E8 #35185A #35185A  #FFFFFF #BB84E8 #FFFFFF */
+@media screen and (max-width: 1200px) {
+	body{
+		overflow-x: hidden;
+	}
+}

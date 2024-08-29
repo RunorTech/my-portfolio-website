@@ -25,8 +25,8 @@ const Projects = () => {
 						<img src={project_pic1} style={{ width: 250, height:240 }} alt="" />
 						<h4>NoteWeb</h4>
 						<div>
-							<button>GitHub</button>
-							<button>Live Demo</button>
+						<a href="https://github.com/RunorTech/noteproject" className="button">GitHub</a>
+							<a href="https://noteproject-delta.vercel.app/" className="button">Live Demo</a>
 						</div>
 					</div>
 					<div className="projects-card">
@@ -34,16 +34,16 @@ const Projects = () => {
 					
 						<h4>DBank app</h4>
 						<div>
-							<button>GitHub</button>
-							<button>Live Demo</button>
+						<a href="#" className="button">GitHub</a>
+						<a href="#" className="button">Live Demo</a>
 						</div>
 					</div>
 					<div className="projects-card">
 						<img src={project3} style={{ width: 250, height:240  }} alt="" />
 						<h4>lorem ipsum</h4>
 						<div>
-							<button>GitHub</button>
-							<button>Live Demo</button>
+						<a href="#" className="button">GitHub</a>
+						<a href="#" className="button">Live Demo</a>
 						</div>
 					</div>
 					

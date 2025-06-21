@@ -1,10 +1,12 @@
-import React from 'react'
 import './Button.css'
 
 const Button = () => {
   return (
     <div>
-       <button className="button-30" role="button">Hire me</button>
+      <a href="#contact">
+        <button className="button-30" role="button">Hire me</button>
+      </a>
+       
     </div>
   )
 }

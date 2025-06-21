@@ -1,4 +1,3 @@
-import React from 'react'
 import NavBar from '../components/NavBar/NavBar'
 import Hero from '../components/Hero/Hero'
 import About from '../components/About/About'
@@ -9,14 +8,18 @@ import Footer from '../components/Footer/Footer'
 
 const WebPage = () => {
   return (
-    <div>
-     <NavBar/>
-     <Hero/>
-     <About/>
-     <Experience/>
-     < Projects/>
-     <GetInTouch/>
-     <Footer/>
+    <div className='flex flex-col px-3'>
+        <div className='min-h-screen flex flex-col gap-4'>
+          <NavBar />
+          <Hero />
+        </div>
+      <div className='flex flex-col gap-12'>
+        <About />
+        <Experience />
+        < Projects />
+        <GetInTouch />
+      </div>
+      <Footer/>
     </div>
   )
 }

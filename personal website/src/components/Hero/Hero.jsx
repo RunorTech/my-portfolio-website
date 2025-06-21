@@ -1,20 +1,20 @@
-import React from "react";
 import "./Hero.css";
-import profile_pic from "../../assets/profile-pic.jpg";
+import profile_pic from "../../assets/profile-pic.jpeg";
 import github from "../../assets/github.png";
 import linkdin from "../../assets/linkedin.png";
+import LightLines from "./light";
 
 const Hero = () => {
-	
+
 	return (
-		<div id="home" className="hero-section">
-			<div className="hero">
-				<img src={profile_pic}  alt="" />
+		<div id="home" className="flex grow items-center justify-center mb-3">
+			<div className=" relative flex gap-7 flex-wrap items-center justify-center !z-10">
+				<img src={profile_pic} className="max-w-96 max-h-96 rounded-4xl" alt="" />
 				<div className="hero-content">
-					<p>Hello I'm</p>
-					<h1>Ighorodje Oghene<span className="name">runor</span></h1>
+					<p>Hello I&apos;m</p>
+					<h1 className="text-4xl font-bold">Ighorodje Oghene<span className="name text-4xl font-bold">runor</span></h1>
 					<h2 className="title">Full-Stack Developer</h2>
-					<div className="btn-hero">
+					<div className="flex flex-wrap items-center justify-center gap-3">
 						<button className="button-28" role="button">
 							View CV
 						</button>
@@ -23,10 +23,18 @@ const Hero = () => {
 						</button>
 					</div>
 					<div className="hero-svg">
-						<img src={github} style={{ width: 30 }} alt="" />
-						<img src={linkdin} style={{ width: 30 }} alt="" />
+						<a href="https://github.com/RunorTech" target="_blank" rel="noopener noreferrer">
+							<img src={github} style={{ width: 30 }} alt="GitHub Profile" />
+						</a>
+						<a href="https://www.linkedin.com/in/oghenerunor-ighorodje-40881a2aa/" target="_blank" rel="noopener noreferrer">
+							<img src={linkdin} style={{ width: 30 }} alt="LinkedIn Profile" />
+						</a>
 					</div>
 				</div>
+				
+			</div>
+			<div className="absolute h-full w-full !-z-10">
+				<LightLines/>
 			</div>
 		</div>
 	);

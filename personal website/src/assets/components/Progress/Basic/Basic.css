@@ -1,6 +1,7 @@
 
 .loader-progress-basic {
-    width: 220px;
+    /* width: 220px; */
+    width: 100%;
     height: 6px;
     border-radius: 20px;
     color: #5b4fbb;

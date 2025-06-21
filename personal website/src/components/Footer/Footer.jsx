@@ -1,14 +1,13 @@
-import {useState} from 'react'
 import './Footer.css'
 import CopyrightIcon from '@mui/icons-material/Copyright';
 
 const Footer = () => {
-    const nowDate = new Date().toDateString();
+  const nowDate = new Date().toDateString();
 
 
   return (
     <div className='footer'>
-      <p>Copyright<span><CopyrightIcon/></span> {nowDate} </p>
+      <p><span>Copyright</span><span><CopyrightIcon /></span> <span>{nowDate}</span> </p>
     </div>
   )
 }

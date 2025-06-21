@@ -1,4 +1,3 @@
-import React from 'react'
 import './Intermediate.css'
 
 const Intermediate = () => {

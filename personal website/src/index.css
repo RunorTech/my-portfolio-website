@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Outfit:wght@100..900&family=Pacifico&display=swap");
+@import "tailwindcss";
 
 * {
 	margin: 0;
@@ -6,7 +7,7 @@
 }
 body {
 	background-color: #161513;
-	height: 100vh;
+	/* height: 100vh; */
 	color: white;
   font-family: "Outfit", sans-serif;
 
@@ -22,9 +23,28 @@ a{
 	color: rgb(240, 233, 233);
 }
 
-/* #BB84E8 #35185A #35185A  #FFFFFF #BB84E8 #FFFFFF */
-/* @media screen and (max-width: 1200px) {
-	body{
-		overflow-x: hidden;
+@tailwind utilities;
+
+@keyframes drop {
+	0% {
+		top: -50%;
 	}
-} */
+
+	100% {
+		top: 110%;
+	}
+}
+
+@layer utilities {
+	.animate-drop1 {
+		animation: drop 7s cubic-bezier(0.4, 0.26, 0, 0.97) 2s infinite forwards;
+	}
+
+	.animate-drop2 {
+		animation: drop 7s cubic-bezier(0.4, 0.26, 0, 0.97) 0s infinite forwards;
+	}
+
+	.animate-drop3 {
+		animation: drop 7s cubic-bezier(0.4, 0.26, 0, 0.97) 2.5s infinite forwards;
+	}
+}

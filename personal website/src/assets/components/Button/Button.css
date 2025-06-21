@@ -1,16 +1,14 @@
 .button-30 {
     cursor: pointer;
       align-items: center;
-      appearance: none;
       background-color: transparent;
       border-radius: 10px;
       border-width: 0;
       box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
       box-sizing: border-box;
-      color: #bdbfc5;
+      color: #ffffff;
       cursor: pointer;
       display: inline-flex;
-      
       height: 48px;
       justify-content: center;
       line-height: 1;
@@ -22,13 +20,10 @@
       text-align: left;
       text-decoration: none;
       transition: box-shadow .15s,transform .15s;
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
       white-space: nowrap;
-      will-change: box-shadow,transform;
       font-size: 24px;
       font-weight: 800;
+      box-shadow: #D6D6E7 0 3px 7px inset;
     }
     
     .button-30:focus {
@@ -41,7 +36,6 @@
     }
     
     .button-30:active {
-      box-shadow: #D6D6E7 0 3px 7px inset;
       transform: translateY(2px);
-      color: rgb(243, 246, 248);
+      color: rgb(255, 255, 255);
     }

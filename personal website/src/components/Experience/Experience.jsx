@@ -1,28 +1,24 @@
-import React from "react";
 import "./Experience.css";
-import LoaderNav from "../../assets/components/LoaderNav/LoaderNav";
 import checkmark from "../../assets/checkmark.png";
 import ProgressExp from "../../assets/components/Progress/Exp/ProgressExp.jsx";
 import Intermediate from '../../assets/components/Progress/Intermediate/Intermediate.jsx';
 import Basic from "../../assets/components/Progress/Basic/Basic.jsx";
 import arrow from "../../assets/arrow.png";
+import LightLines from "../Hero/light.jsx";
 
 const Experience = () => {
 	return (
-		<div id="experience" className="experience-section">
-			<div className="experience-body">
-				<div className="experience-title">
-					<div className="experience-text">
+		<div id="experience" className="relative min-h-screen flex flex-col justify-center items-center w-full">
+			<div className="flex justify-center items-center flex-col gap-20 w-full">
+				<div className="flex gap-12">
+					<div className="text-center">
 						<p>Explore My</p>
-						<h2>Experience</h2>
-					</div>
-					<div className="exploadernav">
-						<LoaderNav />
+						<h2 className="text-5xl">Experience</h2>
 					</div>
 				</div>
-				<div className="experience-content">
-					<div className="front-end">
-						<h3>Frontend Development</h3>
+				<div className="flex items-center justify-center gap-12 flex-wrap">
+					<div className="front-end flex flex-col gap-5 rounded-4xl !p-8 ">
+						<h3 className="text-4xl">Frontend Development</h3>
 						<div className="frontend-content">
 							<img src={checkmark} style={{ width: 30, height: 30 }} alt="" />
 							<div>
@@ -66,8 +62,8 @@ const Experience = () => {
 					</div>
 					{/* backend list */}
 
-					<div className="back-end">
-						<h3>Backend Development</h3>
+					<div className="back-end front-end flex flex-col gap-5 rounded-4xl !p-8">
+						<h3 className="text-4xl">Backend Development</h3>
 						<div className="backend-content">
 							<img src={checkmark} style={{ width: 30, height: 30 }} alt="" />
 							<div>
@@ -102,10 +98,14 @@ const Experience = () => {
 						</div>
 					</div>
 				</div>
+				<div className="experience-svg">
+					<img src={arrow} style={{ width: 30 }} alt="arrow.png" />
+				</div>
 			</div>
-			<div className="experience-svg">
-				<img src={arrow} style={{ width: 30 }} alt="arrow.png" />
+			<div className="absolute h-full w-full !-z-10">
+				<LightLines />
 			</div>
+			
 		</div>
 	);
 };

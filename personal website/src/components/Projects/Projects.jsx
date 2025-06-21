@@ -1,8 +1,5 @@
 import "./Projects.css";
-import project_video3 from "../../assets/ireach.mp4";
 import arrow from "../../assets/arrow.png";
-import project_video2 from '../../assets/food.mp4'
-import project_video from '../../assets/video.mp4'
 
 import LightLines from "../Hero/light";
 
@@ -19,7 +16,7 @@ const Projects = () => {
 				<div className="flex gap-12 flex-wrap items-center justify-center">
 					<div className="projects-card flex flex-col items-center gap-5 rounded-4xl flex-grow !p-14">
 						{/* <img src={project_pic1} style={{ width: 250, height: 240 }} alt="" /> */}
-						<video style={{ width: 250, height: 240 }} src={project_video} autoPlay loop muted
+						<video style={{ width: 250, height: 240 }} src='videos/video.webm' autoPlay loop muted
 							playsInline></video>
 						<h4>Game App</h4>
 						<div>
@@ -29,7 +26,7 @@ const Projects = () => {
 					</div>
 					<div className="projects-card flex flex-col items-center gap-5 rounded-4xl flex-grow !p-14">
 						{/* <img src={project_pic} style={{ width: 250, height: 240 }} alt="" /> */}
-						<video style={{ width: 250, height: 240 }} src={project_video2} autoPlay loop muted
+						<video style={{ width: 250, height: 240 }} src='videos/food.webm' autoPlay loop muted
 							playsInline></video>
 
 						<h4>Bulk Food</h4>
@@ -40,7 +37,7 @@ const Projects = () => {
 					</div>
 					<div className="projects-card flex flex-col items-center gap-5 rounded-4xl flex-grow !p-14">
 						{/* <img src={project3} style={{ width: 250, height: 240 }} alt="" /> */}
-						<video style={{ width: 250, height: 240 }} src={project_video3} autoPlay loop muted
+						<video style={{ width: 250, height: 240 }} src='videos/ireach.webm' autoPlay loop muted
 							playsInline></video>
 
 						<h4>Ireach Web App</h4>

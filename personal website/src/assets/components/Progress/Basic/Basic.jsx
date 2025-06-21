@@ -3,7 +3,7 @@ import './Basic.css'
 const Basic = () => {
   return (
     <div>
-     <div className="loader-progress-basic"></div>  
+      <div className="loader-progress-basic progress-basic"></div>  
     </div>
   )
 }

@@ -2,13 +2,25 @@
 export const  myFunction = () => {
     var navbar = document.getElementById("navbar");
     var hero = document.getElementById("home");
-	var sticky = navbar.offsetTop;
-   console.log(sticky, window.scrollY, )
+    var experience = document.getElementById("experience");
+    var progress_int = document.querySelectorAll(".progress-int");
+    var progress_exp = document.querySelectorAll(".progress-exp")
+    var progress_basic = document.querySelectorAll(".progress-basic")
     if (window.scrollY >= hero.offsetHeight) {
       navbar.classList.add("sticky")
-      // hero.classList.add("margin")
     } else {
       navbar.classList.remove("sticky");
-      // hero.classList.remove("margin")
+    }
+    if (window.scrollY >= experience.offsetHeight) {
+      progress_int.forEach(el => {
+        el.classList?.add("animate-progress-int");
+      });
+      progress_exp.forEach(el => el.classList?.add("animate-progress-exp"))
+      progress_basic.forEach(el => el.classList?.add("animate-progress-basic"))
+      console.log('opo')
+    } else {
+      progress_int.forEach(el => el.classList?.remove("animate-progress-int"))
+      progress_exp.forEach(el => el.classList?.remove("animate-progress-exp"))
+      progress_basic.forEach(el => el.classList?.remove("animate-progress-basic"))
     }
   };

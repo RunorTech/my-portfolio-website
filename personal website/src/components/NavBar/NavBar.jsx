@@ -2,11 +2,10 @@ import "./NavBar.css";
 import { CiMenuFries } from "react-icons/ci";
 import { CiSquareRemove } from "react-icons/ci";
 import Button from "../../assets/components/Button/Button";
-import { myFunction } from "../../utils";
+// import { myFunction } from "../../utils";
 import { useState } from "react";
 
 const NavBar = () => {
-	window.onscroll = function () { myFunction() };
 	
 
 	const [isOpen, setIsOpen] = useState(false);

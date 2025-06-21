@@ -2,10 +2,14 @@ import "./Projects.css";
 import arrow from "../../assets/arrow.png";
 
 import LightLines from "../Hero/light";
+import InfiniteSlider from "./frame";
 
 const Projects = () => {
+
+	
+
 	return (
-		<div id="projects" className="relative min-h-screen flex justify-center items-center w-full">
+		<div id="projects" className="relative min-h-screen flex justify-center items-end w-full">
 			<div className="flex flex-col items-center gap-12 w-full">
 				<div className="text-center">
 					<div>
@@ -48,10 +52,13 @@ const Projects = () => {
 					</div>
 
 				</div>
+				
+				<InfiniteSlider/>
 				<div className="projects-svg">
 					<img src={arrow} style={{ width: 30 }} alt="arrow.png" />
 				</div>
 			</div>
+			
 			<div className="absolute h-full w-full !-z-10">
 				<LightLines />
 			</div>

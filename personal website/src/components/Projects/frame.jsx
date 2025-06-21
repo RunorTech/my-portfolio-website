@@ -66,9 +66,7 @@ const InfiniteSlider = () => {
     const allItems = [...items, ...items, ...items];
 
     return (
-       <div>
-            <h2 className="text-4xl w-full text-center !mb-5">My Stacks</h2>
-
+    
             <div className="relative overflow-hidden w-full justify-center items-center py-4 max-w-3xl">
                 {/* Left fog */}
                 <div className="absolute top-0 left-0 h-full w-12 bg-gradient-to-r from-gray-700 to-transparent z-10 pointer-events-none" />
@@ -94,7 +92,7 @@ const InfiniteSlider = () => {
                     ))}
                 </div>
             </div>
-       </div>
+      
     );
 };
 

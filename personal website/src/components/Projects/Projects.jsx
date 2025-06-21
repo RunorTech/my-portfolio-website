@@ -52,8 +52,10 @@ const Projects = () => {
 					</div>
 
 				</div>
-				
-				<InfiniteSlider/>
+				<div className="relative w-full flex flex-col items-center justify-center">
+					<h2 className="text-4xl w-full text-center !mb-5">My Stacks</h2>
+					<InfiniteSlider />
+				</div>
 				<div className="projects-svg">
 					<img src={arrow} style={{ width: 30 }} alt="arrow.png" />
 				</div>

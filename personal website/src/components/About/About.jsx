@@ -44,7 +44,7 @@ const About = () => {
 								<p>Full-stack Development</p>
 							</div>
 						</div>
-						<p className="max-w-3xl">
+						<p className="max-w-3xl  !px-8">
 							I&apos;m Oghenerunor Ighorodje, a passionate software engineer with a strong focus on frontend development. I specialize in building responsive, user-friendly web applications using modern technologies like React, TypeScript, Next.js, and Tailwind CSS. I&apos;ve worked on real-world projects ranging from dynamic UI components to full-stack integrations, combining technical skills with a strong attention to user experience. Based in Nigeria, I&apos;m committed to continuous learning and creating innovative solutions that make a real impact.
 						</p>
 					</div>

@@ -8,7 +8,7 @@ import Footer from '../components/Footer/Footer'
 
 const WebPage = () => {
   return (
-    <div className='flex flex-col px-3'>
+    <div className='flex flex-col'>
         <div className='min-h-screen flex flex-col gap-4'>
           <NavBar />
           <Hero />

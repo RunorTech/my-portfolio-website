@@ -19,7 +19,8 @@ const Projects = () => {
 				<div className="flex gap-12 flex-wrap items-center justify-center">
 					<div className="projects-card flex flex-col items-center gap-5 rounded-4xl flex-grow !p-14">
 						{/* <img src={project_pic1} style={{ width: 250, height: 240 }} alt="" /> */}
-						<video style={{ width: 250, height: 240 }} src={project_video} autoPlay loop></video>
+						<video style={{ width: 250, height: 240 }} src={project_video} autoPlay loop muted
+							playsInline></video>
 						<h4>Game App</h4>
 						<div>
 							<a href="https://github.com/RunorTech/nextapp/blob/4f1d026f39526fdeaa814e7bc5d37a20c38cdc9c/package.json" className="button">GitHub</a>
@@ -28,7 +29,8 @@ const Projects = () => {
 					</div>
 					<div className="projects-card flex flex-col items-center gap-5 rounded-4xl flex-grow !p-14">
 						{/* <img src={project_pic} style={{ width: 250, height: 240 }} alt="" /> */}
-						<video style={{ width: 250, height: 240 }} src={project_video2} autoPlay loop></video>
+						<video style={{ width: 250, height: 240 }} src={project_video2} autoPlay loop muted
+							playsInline></video>
 
 						<h4>Bulk Food</h4>
 						<div>
@@ -38,7 +40,8 @@ const Projects = () => {
 					</div>
 					<div className="projects-card flex flex-col items-center gap-5 rounded-4xl flex-grow !p-14">
 						{/* <img src={project3} style={{ width: 250, height: 240 }} alt="" /> */}
-						<video style={{ width: 250, height: 240 }} src={project_video3} autoPlay loop></video>
+						<video style={{ width: 250, height: 240 }} src={project_video3} autoPlay loop muted
+							playsInline></video>
 
 						<h4>Ireach Web App</h4>
 						<div>

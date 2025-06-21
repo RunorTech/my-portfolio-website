@@ -16,8 +16,8 @@ const Projects = () => {
 				<div className="flex gap-12 flex-wrap items-center justify-center">
 					<div className="projects-card flex flex-col items-center gap-5 rounded-4xl flex-grow !p-14">
 						{/* <img src={project_pic1} style={{ width: 250, height: 240 }} alt="" /> */}
-						<video style={{ width: 250, height: 240 }} src='videos/video.webm' autoPlay loop muted
-							playsInline></video>
+						<video style={{ width: 250, height: 240 }} src='videos/video.mp4' autoPlay loop muted
+							playsInline aria-label="Game app"></video>
 						<h4>Game App</h4>
 						<div>
 							<a href="https://github.com/RunorTech/nextapp/blob/4f1d026f39526fdeaa814e7bc5d37a20c38cdc9c/package.json" className="button">GitHub</a>
@@ -26,8 +26,8 @@ const Projects = () => {
 					</div>
 					<div className="projects-card flex flex-col items-center gap-5 rounded-4xl flex-grow !p-14">
 						{/* <img src={project_pic} style={{ width: 250, height: 240 }} alt="" /> */}
-						<video style={{ width: 250, height: 240 }} src='videos/food.webm' autoPlay loop muted
-							playsInline></video>
+						<video style={{ width: 250, height: 240 }} src='videos/food.mp4' autoPlay loop muted
+							playsInline aria-label="Bulk food"></video>
 
 						<h4>Bulk Food</h4>
 						<div>
@@ -37,8 +37,8 @@ const Projects = () => {
 					</div>
 					<div className="projects-card flex flex-col items-center gap-5 rounded-4xl flex-grow !p-14">
 						{/* <img src={project3} style={{ width: 250, height: 240 }} alt="" /> */}
-						<video style={{ width: 250, height: 240 }} src='videos/ireach.webm' autoPlay loop muted
-							playsInline></video>
+						<video style={{ width: 250, height: 240 }} src='videos/ireach.mp4' autoPlay loop muted
+							playsInline aria-label="ireach web app"></video>
 
 						<h4>Ireach Web App</h4>
 						<div>

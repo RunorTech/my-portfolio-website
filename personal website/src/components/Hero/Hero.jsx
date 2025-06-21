@@ -1,5 +1,6 @@
 import "./Hero.css";
 import profile_pic from "../../assets/profile-pic.jpeg";
+import cv from "../../assets/CV.pdf";
 import github from "../../assets/github.png";
 import linkdin from "../../assets/linkedin.png";
 import LightLines from "./light";
@@ -15,12 +16,17 @@ const Hero = () => {
 					<h1 className="text-4xl font-bold">Ighorodje Oghene<span className="name text-4xl font-bold">runor</span></h1>
 					<h2 className="title">Full-Stack Developer</h2>
 					<div className="flex flex-wrap items-center justify-center gap-3">
-						<button className="button-28" role="button">
-							View CV
-						</button>
-						<button className="button-288" role="button">
-							Contact info
-						</button>
+						<a download={'My CV'} href={cv} >
+							<button className="button-28" role="button">
+								View CV
+							</button>
+						</a>
+						
+						<a href="#contact">
+							<button className="button-288" role="button">
+								Contact info
+							</button>
+						</a>
 					</div>
 					<div className="hero-svg">
 						<a href="https://github.com/RunorTech" target="_blank" rel="noopener noreferrer">

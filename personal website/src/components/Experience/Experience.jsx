@@ -17,7 +17,7 @@ const Experience = () => {
 					</div>
 				</div>
 				<div className="flex items-center justify-center gap-12 flex-wrap">
-					<div className="front-end flex flex-col gap-5 rounded-4xl !p-8 ">
+					<div id="front-end" className="front-end flex flex-col gap-5 rounded-4xl !p-8 ">
 						<h3 className="text-4xl">Frontend Development</h3>
 						<div className="frontend-content">
 							<img src={checkmark} style={{ width: 30, height: 30 }} alt="" />
@@ -62,7 +62,7 @@ const Experience = () => {
 					</div>
 					{/* backend list */}
 
-					<div className="back-end front-end flex flex-col gap-5 rounded-4xl !p-8">
+					<div id="back-end" className="back-end front-end flex flex-col gap-5 rounded-4xl !p-8">
 						<h3 className="text-4xl">Backend Development</h3>
 						<div className="backend-content">
 							<img src={checkmark} style={{ width: 30, height: 30 }} alt="" />
